@@ -1,2 +1,2 @@
-n = input('Teste? ')
-print('Teste 1 2 3 {}'.format(n))
+print('====== EXERCICIO 1 ======')
+print('Olá, Mundo!')

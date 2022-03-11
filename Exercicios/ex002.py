@@ -1,0 +1,7 @@
+print('====== EXERCICIO 2 ======')
+nome = input('Digite seu nome: ')
+print('É um prazer te conhecer, {}!'.format(nome))
+Dia = input(nome + ', poderia me informar o dia de seu nascimento? ')
+Mes = input('Agora o mês: ')
+Ano = input('E por fim o ano: ')
+print('Ok... Então você nasceu dia ' + Dia + ' de ' + Mes + ' de ' + Ano + ', Certo {}?'.format(nome))
