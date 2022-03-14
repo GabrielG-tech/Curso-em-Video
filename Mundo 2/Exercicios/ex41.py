@@ -13,3 +13,4 @@ elif 19 < idade <= 20:
 else:
     classe = 'Master'
 print('Sua classificação é {}.'.format(classe))
+

@@ -8,3 +8,4 @@ elif 5.0 <= media <= 6.9:
     print('\033[1;33m ---== RECUPERAÇÃO ==--- \033[m')
 else:
     print('\033[1;32m ---== APROVADO ==--- \033[m')
+

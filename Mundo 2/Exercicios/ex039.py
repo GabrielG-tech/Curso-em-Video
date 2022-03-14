@@ -8,3 +8,4 @@ elif idade == 18:
     print('É hora de se alistar.')
 else:
     print('Já passou da hora de se alistar faz {} anos.'.format(idade - 18))
+

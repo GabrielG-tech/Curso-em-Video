@@ -15,3 +15,4 @@ if max(lista) <= (sum(lista) - max(lista)):
         print('Este triângulo é \033[1mEscaleno\033[m.')
 else:
     print('\033[31mEstes segmentos não formam um triângulo.\033[m')
+

@@ -8,3 +8,4 @@ elif 18 < n < 40:
     print('Parace que você é um adulto, tenha um bom dia!')
 else:
     print('Ih parace que você já está velinho, tenha um bom dia!')
+

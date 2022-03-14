@@ -11,3 +11,4 @@ else:
     print('Para pagar uma casa de R${:.2f} em {} anos'.format(casa, anos), end='')
     print('a prestação será de R${:.2f}.'.format(prest))
     print('Empréstimo foi \033[1;31mnegado\033[m!')
+

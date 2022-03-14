@@ -7,3 +7,4 @@ if pv == sv:
 else:
     print('O {} é o maior número'.format(max(lista)))
     print('O {} é o menor número'.format(min(lista)))
+
