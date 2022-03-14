@@ -1,1 +1,5 @@
 print('='*12 + ' DESAFIO 43 ' + '='*12)
+print('-='*20)
+print('Medidor de Massa Corporea')
+peso = float(input('Digite seu peso: '))
+altura = float(input('Digite sua altura: '))
