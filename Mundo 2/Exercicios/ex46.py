@@ -1,1 +1,6 @@
-print('='*12 + ' DESAFIO 46 ' + '='*12)
+print('{:=^40}'.format(' DESAFIO 46 '))
+from time import sleep
+for c in range(10, 0, -1):
+    print(c)
+    sleep(1)
+print('\033[1;31m* * * * Fogos de artifício * * * *\033[m')
