@@ -1,1 +1,1 @@
-print('='*12 + ' DESAFIO 48 ' + '='*12)
+print('{:=^40}'.format(' DESAFIO 48 '))
