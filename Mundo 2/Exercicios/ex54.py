@@ -1,4 +1,4 @@
-print('{:=^40}'.format(' DESAFIO 54 '))
+print('='*14 + ' DESAFIO 54 ' + '='*14)
 from datetime import date
 maior_idade = 18
 pessoas = 4

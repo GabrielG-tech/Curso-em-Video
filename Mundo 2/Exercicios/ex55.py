@@ -1,4 +1,4 @@
-print('{:=^40}'.format(' DESAFIO 55 '))
+print('='*14 + ' DESAFIO 55 ' + '='*14)
 pesox = 0
 maior = 0
 menor = 0

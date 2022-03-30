@@ -1,4 +1,4 @@
-print('{:=^40}'.format(' DESAFIO 53 '))
+print('='*14 + ' DESAFIO 53 ' + '='*14)
 n = str(input('Digite uma frase para análise: '))
 n = n.lower().strip().split()
 n = ''.join(n)
