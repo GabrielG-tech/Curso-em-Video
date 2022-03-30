@@ -1,6 +1,4 @@
-print('{:=^40}'.format(' DESAFIO 49 '))
+print('='*14 + ' DESAFIO 49 ' + '='*14)
 num = int(input('Tabuada de: '))
-n = 0
-for c in range(0, num*11, num):
-    print('{} x {} = {}'.format(num, n, num * n))
-    n += 1
+for c in range(1, 11):
+    print('{} x {:2} = {}'.format(num, c, num*c))
