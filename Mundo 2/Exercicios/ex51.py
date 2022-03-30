@@ -1,7 +1,9 @@
-print('{:=^40}'.format(' DESAFIO 51 '))
-n = int(input('Digite um número para a progressão: '))
-r = int(input('Digite a razão da P.A.: '))
-print(n)
-for c in range(0, 9):
-    n += r
-    print(n)
+print('='*14 + ' DESAFIO 51 ' + '='*14)
+print(' '*10, '10 Temos de uma P.A.')
+print('='*40)
+n = int(input('Primeiro termo: '))
+r = int(input('Razão: '))
+décimo = n + (10 - 1) * r
+for c in range(n, décimo + r, r):
+    print(c, end=' → ')
+print('Fim')
