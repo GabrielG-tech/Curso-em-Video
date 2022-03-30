@@ -1,6 +1,8 @@
-print('{:=^40}'.format(' DESAFIO 48 '))
-s = 3
-for c in range(3, 500, 3):
-    n = int(c)
-    s = s + n
-print(n)
+print('='*14 + ' DESAFIO 48 ' + '='*14)
+soma = 0
+cont = 0
+for c in range(1, 501, 2):
+    if c % 3 == 0:
+        soma += c
+        cont += 1
+print('A soma de todos os {} valores solicitados é {}.'.format(cont, soma))
