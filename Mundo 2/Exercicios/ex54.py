@@ -1,11 +1,12 @@
 print('='*14 + ' DESAFIO 54 ' + '='*14)
 from datetime import date
-maior_idade = 18
-pessoas = 4
-maiores = 0
-for c in range(0, pessoas):
-    ano = int(input('Digite seu ano de nascimento: '))
-    if date.today().year - ano >= maior_idade:
-        maiores = maiores + 1
-menores = pessoas - maiores
-print('Maiores de idade: {}\nMenores de idade: {}'.format(maiores, menores))
+totmaior = 0
+totmenor = 0
+for pess in range(1, 8):
+    nasc = int(input('Digite seu ano de nascimento: '))
+    idade = date.today().year - nasc
+    if idade >= 21:
+        totmaior += 1
+    else:
+        totmenor += 1
+print('Ao todo tivemos {} pessoas maiores de idade\nE também tivemos {} pessoas menores de idade.'.format(totmaior, totmenor))
