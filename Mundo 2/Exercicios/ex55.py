@@ -1,12 +1,12 @@
 print('='*14 + ' DESAFIO 55 ' + '='*14)
-pesox = 0
-maior = 0
-menor = 0
-for c in range(0, 3):
-    peso = float(input('Digite seu peso: '))
-    if peso > pesox:
+for p in range(1, 6):
+    peso = float(input('Peso da {}ª pessoa: '.format(p)))
+    if p == 1:
         maior = peso
-    if peso < pesox:
         menor = peso
-    peso = pesox
-print('O maior peso é {} e o menor é {}.'.format(maior, menor))
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
+print('O maior peso é \033[1m{}Kg\033[m e o menor é \033[1m{}Kg\033[m.'.format(maior, menor))
