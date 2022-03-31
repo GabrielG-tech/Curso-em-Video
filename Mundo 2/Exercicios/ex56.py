@@ -9,13 +9,13 @@ for p in range(1, 5):
     print('-' * 5 + ' {}ª Pessoa '.format(pessoa) + '-' * 5)
     nome = str(input('Nome: ')).strip()
     idade = int(input('Idade: '))
-    sexo = str(input('Sexo [M/F]: ')).strip()
-    if sexo == 'M' or 'm' and p == 1:
+    sexo = str(input('Sexo [M/F]: ')).strip().upper()
+    if sexo == 'M' and p == 1:
         idademax = idade
-    if sexo == 'M' or 'm' and idade > idademax:
+    if sexo == 'M' and idade > idademax:
         idademax = idade
         velho = nome
-    if sexo == 'F' or 'f':
+    if sexo == 'F':
         if idade < 20:
             menina += 1
     somaidade += idade
