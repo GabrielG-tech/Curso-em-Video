@@ -1,3 +1,4 @@
+# Estrutura 'while'
 r = 'S'
 par = impar = 0
 while r == 'S':
