@@ -1,3 +1,4 @@
+# Esturuta 'for'
 from time import sleep
 #n = int(input('Escreva um número: '))
 #for c in range(n, 0, -1):
