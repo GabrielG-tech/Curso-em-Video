@@ -1,4 +1,4 @@
-# Para condições aninhadas use 'elif'
+# Aula 12 – Condições Aninhadas (if..elif)
 n = int(input('Quantos anos você tem? '))
 if n <= 17:
     print('Você é bem novo ainda.')

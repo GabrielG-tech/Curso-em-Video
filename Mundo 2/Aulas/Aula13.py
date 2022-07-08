@@ -1,4 +1,4 @@
-# Esturuta 'for'
+# Aula 12 – Estrutura de repetição for
 from time import sleep
 #n = int(input('Escreva um número: '))
 #for c in range(n, 0, -1):
