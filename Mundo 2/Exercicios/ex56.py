@@ -1,25 +1,25 @@
 print('='*14 + ' DESAFIO 56 ' + '='*14)
-pessoa = 0
-somaidade = 0
-idademax = 0
-velho = ''
-menina = 0
+soma_idade = 0
+media_idade = 0
+maior_idade_homem = 0
+nome_velho = ''
+totmulher20 = 0
 for p in range(1, 5):
-    pessoa += 1
-    print('-' * 5 + ' {}ª Pessoa '.format(pessoa) + '-' * 5)
+    print('-' * 5 + ' {}ª Pessoa '.format(p) + '-' * 5)
     nome = str(input('Nome: ')).strip()
     idade = int(input('Idade: '))
     sexo = str(input('Sexo [M/F]: ')).strip().upper()
-    if sexo == 'M' and p == 1:
-        idademax = idade
-    if sexo == 'M' and idade > idademax:
-        idademax = idade
-        velho = nome
+    soma_idade += idade
+    if p == 1 and sexo == 'M':
+        maior_idade_homem = idade
+        nome_velho = nome
+    if sexo == 'M' and idade > maior_idade_homem:
+        maior_idade_homem = idade
+        nome_velho = nome
     if sexo == 'F':
         if idade < 20:
-            menina += 1
-    somaidade += idade
-media = somaidade/pessoa
-print('A média de idade do grupo é de {} anos.'.format(media))
-print('O homem mais velho tem {} anos e se chama {}.'.format(idademax, velho))
-print('Ao todo são {} mulheres com menos de 20 anos.'.format(menina))
+            totmulher20 += 1
+media_idade = soma_idade / 4
+print('A média de idade do grupo é de {} anos.'.format(media_idade))
+print('O homem mais velho tem {} anos e se chama {}.'.format(maior_idade_homem, nome_velho))
+print('Ao todo são {} mulheres com menos de 20 anos.'.format(totmulher20))
